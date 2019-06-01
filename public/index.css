@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #fff; 
+   background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+   linear-gradient(#eee .1em, transparent .1em);
+   background-size: 100% 1.2em;
+ }
+
+ /*texto "about me" */
+  #about-me{
+    padding: 0;
+    text-align: right;
+    padding-right: 80px;
+    font-family: Roboto;
+    font-size: 1.1em;
+  }
+    #about-me h3{
+      position: relative;
+      bottom: 3px;
+    }
+      a{
+        text-decoration: none;
+        color: #171717;
+      }
+
+  /*titulo "my portfolio" */    
+    .title {
+        font-size: 100px;
+        text-align: center;
+        margin: 30vh auto 0px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: Righteous;
+        color: #171717;
+        max-width: 1150px;
+        border: 2px solid red;
+        
+      }
+
+      .title span {
+        text-shadow: -1px 0 0px #009FFD, 0 1px 0px #EFFFC8, -2px 1px 0px #009FFD, -1px 2px 0px #EFFFC8, -3px 2px 0px #009FFD, -2px 3px 0px #EFFFC8, -4px 3px 0px #009FFD, -3px 4px 0px #EFFFC8, -5px 4px 0px #009FFD, -4px 5px 0px #EFFFC8, -6px 5px 0px #009FFD, -5px 6px 15px #000000;
+        display: inline-block;
+        position: relative;
+        padding: 0px 6px; 
+        transition: 0.8s;
+        transform: rotateZ(0deg);
+      }
+  
+      .title:hover {
+        cursor: pointer;
+      }
+  
+      .title span.active {
+        transform: translatey(6px);
+        text-shadow: -1px 0 0px #009FFD, 0 1px 0px #EFFFC8, -2px 1px 0px #009FFD, -1px 2px 0px #EFFFC8, -3px 2px 0px #009FFD, -2px 3px 0px #EFFFC8, -4px 3px 0px #009FFD, -3px 4px 0px #EFFFC8, -5px 4px 0px #009FFD, -4px 5px 0px #EFFFC8, -3px 3px 4px #000000;
+      }
+
+
+    /*Botones click*/
+
+.pro1,.pro2,.pro3{
+  display: none;
+}
+  
+footer{
+  text-align: center;
+}
