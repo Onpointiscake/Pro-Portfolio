@@ -1,10 +1,5 @@
 ( function( $ ) {
 
-    /**
-     * span-letters.js
-     * 
-     * Example usage: jQuery('.selector').spanLetters();
-     */
     $.fn.spanLetters = function() {
 
         // Loop through each element on which this function has been called

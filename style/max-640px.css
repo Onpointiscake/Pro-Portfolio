@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff; 
+    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #c8cecf 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+  }
+ 
+
+.title {
+    font-size: 70px;
+    text-align: center;
+    margin: 5vh 10vh ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Righteous;
+    color: #182B32;
+    
+  }
