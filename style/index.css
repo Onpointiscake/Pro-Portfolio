@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+a{
+  cursor: pointer;
+}
+
 body {
    margin: 0;
    padding: 0;
@@ -38,8 +42,7 @@ body {
 
  /*texto "about me" */
     #aboutme{
-      font-family: Roboto;
-      
+      font-family: Roboto;  
       margin-top: 73px;
       margin-right: 70px;
     }
@@ -80,12 +83,30 @@ body {
       }
 
 
-    /*Botones click*/
-.pro1,.pro2,.pro3{
-  display: none;
+ /*Organizar projects Showcase*/
+#projects-js, #projects-react, #projects-java{
+  border: 2px solid black;
+  position: absolute;
+  width: 80%;
+  margin-left: 9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.getup{
+  position: relative;
+  bottom: 30px;
+  transition: all 800ms;
+}
+.getdown{
+  margin-top: 200px;
+  transform: scale(0.90);
+  transition: all 1400ms;
 }
 
 
+
+/* Responsive stuff */
 @media (min-width: 500px) and (max-width: 600px) {
   h1 {
     color: fuchsia;

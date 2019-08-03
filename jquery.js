@@ -130,5 +130,29 @@ $( ".container" )
 
     });
 
+// Aparecer projectos Javascript
+$("#js-logo").mouseover( function() {
+  $("#main-head").addClass("getdown");
 
+  $("#projects-java").hide(460);
+  $("#projects-react").hide(460);
+  $("#projects-js").show(860);
+})
 
+// Aparecer projectos React
+$("#react-logo").mouseover( function() {
+  $("#main-head").addClass("getdown");
+
+  $("#projects-java").hide(460);
+  $("#projects-js").hide(460);
+  $("#projects-react").show(860);
+})
+
+// Aparecer projectos Java
+$("#java-logo").mouseover( function() {
+  $("#main-head").addClass("getdown");
+
+  $("#projects-js").hide(460);
+  $("#projects-react").hide(460);
+  $("#projects-java").show(860);
+})
