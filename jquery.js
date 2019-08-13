@@ -136,7 +136,11 @@ $("#js-logo").mouseover( function() {
 
   $("#projects-java").hide(460);
   $("#projects-react").hide(460);
+  $("#projects-ph").hide(460);
+
   $("#projects-js").show(860);
+  $("#projects-js").css("visibility", "visible");
+ 
 })
 
 // Aparecer projectos React
@@ -145,7 +149,11 @@ $("#react-logo").mouseover( function() {
 
   $("#projects-java").hide(460);
   $("#projects-js").hide(460);
+  $("#projects-ph").hide(460);
+
   $("#projects-react").show(860);
+  $("#projects-react").css("visibility", "visible");
+ 
 })
 
 // Aparecer projectos Java
@@ -154,5 +162,21 @@ $("#java-logo").mouseover( function() {
 
   $("#projects-js").hide(460);
   $("#projects-react").hide(460);
+  $("#projects-ph").hide(460);
+
   $("#projects-java").show(860);
+  $("#projects-java").css("visibility", "visible");
+ 
+})
+// Aparecer projectos Ph:
+$("#ph-logo").mouseover( function() {
+  $("#main-head").addClass("getdown");
+
+  $("#projects-js").hide(460);
+  $("#projects-react").hide(460);
+  $("#projects-java").hide(460);
+
+  $("#projects-ph").show(860);
+  $("#projects-ph").css("visibility", "visible");
+ 
 })
