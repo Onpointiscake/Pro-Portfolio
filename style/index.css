@@ -13,6 +13,7 @@ body {
    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
    linear-gradient(#eee .1em, transparent .1em);
    background-size: 100% 1.2em;
+   font-family: Righteous;
  }
 
  #top-stuff{
@@ -29,18 +30,25 @@ body {
     margin-top: 1.5em;
     margin-left: 45px;
     width: 100px;
-    margin-bottom: -34px;
+    margin-bottom: -42px;
   }
     .fa-github{
       color: #2A2D34;
+      position: relative;
+      bottom: 4px;
+      left: 1px;
     }
     .fa-linkedin-in{
-      color: #3E517A
+      color: #3E517A;
+      position: relative;
+      left: 2px;
+      bottom: 6px;
     }
     .fa-behance{
       color: lightslategray;
       position: relative;
       right: 2px;
+      bottom: 5px;
     }
 
 #iconos-tecnologias{
@@ -61,7 +69,8 @@ body {
       text-decoration: none;
       color: #2A2D34;
       font-size: 1.2em;
-      
+      position: relative;
+      top: 2px;
     }
 
   /*titulo "my portfolio" */    
@@ -72,38 +81,33 @@ body {
         text-transform: uppercase;
         font-weight: 700;
         font-family: Righteous;
-        color: #8E97A8;
+        color: rgb(102, 108, 119);
         max-width: 1150px;
       }
 
       .title span {
-        text-shadow: 0px 0 3px #314CB6, 0 1px 0px, -2px 1px 0px, -1px 2px 0px #EFFFC8, -3px 2px 0px #3E517A, -2px 3px 0px #EFFFC8, -4px 3px 0px #2A2D34, -3px 4px 0px #EFFFC8, -5px 4px 0px #314CB6, -4px 5px 0px #EFFFC8, -6px 5px 0px #2A2D34, -5px 6px 15px #000000;
+        text-shadow: 0px 0 3px #828A99, 0 1px 0px, -2px 1px 0px, -1px 2px 0px #EFFFC8, -3px 2px 0px #3E517A, -2px 3px 0px #EFFFC8, -4px 3px 0px #2A2D34, -3px 4px 0px #EFFFC8, -5px 4px 0px #828A99, -4px 5px 0px #EFFFC8, -6px 5px 0px #828A99, -5px 6px 15px #828A99;
         display: inline-block;
         position: relative;
         padding: 0px 5px; 
         transition: 0.8s;
         transform: rotateZ(0deg);
       }
-  
-      .title:hover {
-        cursor: pointer;
-      }
-  
-      .title span.active {
-        transform: translatey(6px);
-        text-shadow: -1px 0 0px #009FFD, 0 1px 0px #EFFFC8, -2px 1px 0px #009FFD, -1px 2px 0px #EFFFC8, -3px 2px 0px #009FFD, -2px 3px 0px #EFFFC8, -4px 3px 0px #009FFD, -3px 4px 0px #EFFFC8, -5px 4px 0px #009FFD, -4px 5px 0px #EFFFC8, -3px 3px 4px #000000;
-      }
 
-.pro1,.pro2,.pro3,.pro4 h1{
+.pro1{ border-top: 3px solid #F0DB4F;}
+.pro2{ border-top: 3px solid #B7EFFD;}
+.pro3{ border-top: 3px solid #E76F00;}
+.pro4{ border-top: 3px solid #2F2674; height: 50%;}
+.pro1,.pro2,.pro3,.pro4 h2{
   text-align: center;
+  font-family: Roboto;
 }
  /*Organizar projects Showcase*/
 #projects-js, #projects-react, #projects-java, #projects-ph{
   position: absolute;
   width: 80%;
-  top: 60px;
+  top: 30px;
   margin-left: 9%;
-  display: flex;
   flex-direction: row;
   visibility: hidden;
   display: flex;
