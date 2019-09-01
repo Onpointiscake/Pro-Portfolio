@@ -95,8 +95,6 @@ body {
         transform: rotateZ(0deg);
       }
 
-/*BORDES PROYECTOS https://codepen.io/erier/pen/dzpri*/
-
 .pro4{  height: 50%;}
 .pro1,.pro2,.pro3,.pro4 h3{
   text-align: center;
@@ -152,53 +150,20 @@ body {
 https://codepen.io/patrickkunka/pen/axEgL
 
 */
+@custom-media --viewport-4 (min-width: 480px);
+@custom-media --viewport-7 (min-width: 768px);
+@custom-media --viewport-9 (min-width: 992px);
+@custom-media --viewport-12 (min-width: 1200px);
 
-
-/* Responsive stuff */
-@media (min-width: 500px) and (max-width: 600px) {
-  h1 {
-    color: fuchsia;
-  }
-
-  .desc:after {
-    content:" In fact, it's between 500px and 600px wide.";
-  }
+@media (--viewport-4) {
+  /* ... */
 }
-
-
-footer{
-  font-family: 'Long Cang', cursive;
-  font-size: 1.4em;
-  right:400px;
-  color: rgb(115, 119, 126);
-  position: absolute;
-  bottom: -8px;
-  left: 80px;
-  padding: 0px;
+@media (--viewport-7) {
+  /* ... */
 }
-h3{
-  width: 60%;
-  padding: 1vh 1vh;
-  font-size: 1.4em;
-  white-space: nowrap;
-  margin-left: 25%;
-  font-family: 'Chilanka', cursive;
-  border-radius: 1em 0 1em 0;
-  text-shadow: 1px 1px 1px #fff;
-  background-image: 
-    linear-gradient(-100deg, 
-      rgba(255,250,150,0.35),
-      rgba(255,250,150,0.8) 100%, 
-      rgba(255,250,150,0.25)
-    );
+@media (--viewport-9) {
+  /* ... */
 }
-.portada-h3{
-  width: 100%;
-  position: relative;
-  right: 70px;
-}
-.quote-h3{
-  width: 80%;
-  position: relative;
-  right: 40px;
+@media (--viewport-12) {
+  /* ... */
 }
